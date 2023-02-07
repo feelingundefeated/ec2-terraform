@@ -1,3 +1,5 @@
+# Launch ec2 instance and build it using Terraform.
+
 Pre-requisites:
 
 Basic understanding of Terraform.
