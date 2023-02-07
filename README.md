@@ -1,4 +1,4 @@
-Pre-requisites
+Pre-requisites:
 
 Basic understanding of Terraform.
 
@@ -13,5 +13,8 @@ access_key & secret_key of an AWS IAM User
 (2)Create the variables.tf file. Once the main.tf file is created, it's time to set up the necessary variables. ...
 
 (3)Create the EC2 environment. ...
+   terraform init - Initializes the environment and pulls down the AWS provider.
+   terraform plan - Creates an execution plan for the environment and confirm no bugs are found.
+   terraform apply - Creates and automatically approves the environment.
 
 (4)Clean up the environment.
