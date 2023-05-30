@@ -1,4 +1,4 @@
-# Launch ec2 instance and build it using Terraform.
+```# Launch ec2 instance and build it using Terraform.
 
 Pre-requisites:
 
@@ -20,3 +20,4 @@ access_key & secret_key of an AWS IAM User
    terraform apply - Creates and automatically approves the environment.
 
 (4)Clean up the environment.
+```
